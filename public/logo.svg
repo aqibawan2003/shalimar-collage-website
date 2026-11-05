@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" width="200" height="240">
+  <!-- Shield shape -->
+  <path d="M100 5 L190 40 L190 140 Q190 200 100 235 Q10 200 10 140 L10 40 Z" fill="#0077BE" stroke="#fff" stroke-width="3"/>
+  <path d="M100 15 L180 46 L180 140 Q180 193 100 225 Q20 193 20 140 L20 46 Z" fill="#1a90d4"/>
+
+  <!-- Sky blue upper section -->
+  <path d="M20 46 L180 46 L180 140 L20 140 Z" fill="#5BC8F5" opacity="0.3"/>
+
+  <!-- Sun -->
+  <circle cx="55" cy="90" r="22" fill="#FFD700"/>
+  <line x1="55" y1="60" x2="55" y2="52" stroke="#FFD700" stroke-width="3"/>
+  <line x1="55" y1="118" x2="55" y2="126" stroke="#FFD700" stroke-width="3"/>
+  <line x1="25" y1="90" x2="17" y2="90" stroke="#FFD700" stroke-width="3"/>
+  <line x1="85" y1="90" x2="93" y2="90" stroke="#FFD700" stroke-width="3"/>
+  <line x1="34" y1="69" x2="28" y2="63" stroke="#FFD700" stroke-width="3"/>
+  <line x1="76" y1="69" x2="82" y2="63" stroke="#FFD700" stroke-width="3"/>
+  <line x1="34" y1="111" x2="28" y2="117" stroke="#FFD700" stroke-width="3"/>
+  <line x1="76" y1="111" x2="82" y2="117" stroke="#FFD700" stroke-width="3"/>
+
+  <!-- Open book top right -->
+  <rect x="120" y="62" width="50" height="38" rx="2" fill="#fff"/>
+  <line x1="145" y1="62" x2="145" y2="100" stroke="#ccc" stroke-width="1.5"/>
+  <!-- Book lines -->
+  <line x1="124" y1="72" x2="142" y2="72" stroke="#999" stroke-width="1"/>
+  <line x1="124" y1="78" x2="142" y2="78" stroke="#999" stroke-width="1"/>
+  <line x1="124" y1="84" x2="142" y2="84" stroke="#999" stroke-width="1"/>
+  <line x1="124" y1="90" x2="142" y2="90" stroke="#999" stroke-width="1"/>
+  <line x1="148" y1="72" x2="166" y2="72" stroke="#999" stroke-width="1"/>
+  <line x1="148" y1="78" x2="166" y2="78" stroke="#999" stroke-width="1"/>
+  <line x1="148" y1="84" x2="166" y2="84" stroke="#999" stroke-width="1"/>
+  <line x1="148" y1="90" x2="166" y2="90" stroke="#999" stroke-width="1"/>
+
+  <!-- Building/Gate in center -->
+  <rect x="68" y="118" width="64" height="45" fill="#12305A"/>
+  <!-- Gate arch -->
+  <path d="M85 163 L85 140 Q85 130 100 130 Q115 130 115 140 L115 163 Z" fill="#1a90d4"/>
+  <!-- Towers -->
+  <rect x="68" y="108" width="16" height="55" fill="#12305A"/>
+  <rect x="116" y="108" width="16" height="55" fill="#12305A"/>
+  <rect x="65" y="104" width="22" height="8" fill="#12305A"/>
+  <rect x="113" y="104" width="22" height="8" fill="#12305A"/>
+
+  <!-- Waves at bottom -->
+  <path d="M20 160 Q35 155 50 160 Q65 165 80 160 Q95 155 110 160 Q125 165 140 160 Q155 155 170 160 Q180 162 180 165 L20 165 Z" fill="#0066AA"/>
+  <path d="M20 168 Q38 163 55 168 Q72 173 90 168 Q108 163 126 168 Q144 173 162 168 L180 170 L180 175 L20 175 Z" fill="#004A8C"/>
+  <path d="M20 175 L180 175 L180 165 Q165 170 150 165 Q135 160 120 165 Q105 170 90 165 Q75 160 60 165 Q45 170 30 165 L20 168 Z" fill="#003878" opacity="0.6"/>
+
+  <!-- Red banner -->
+  <path d="M15 190 L185 190 L180 210 L100 215 L20 210 Z" fill="#CC0000"/>
+  <path d="M15 190 L30 185 L30 210 L15 215 Z" fill="#990000"/>
+  <path d="M185 190 L170 185 L170 210 L185 215 Z" fill="#990000"/>
+
+  <!-- Gold banner -->
+  <rect x="22" y="205" width="156" height="25" rx="3" fill="#FFD700"/>
+
+  <!-- LEARN TO LIVE text -->
+  <text x="100" y="223" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#12305A" letter-spacing="1">LEARN TO LIVE</text>
+
+  <!-- Shield outline -->
+  <path d="M100 5 L190 40 L190 140 Q190 200 100 235 Q10 200 10 140 L10 40 Z" fill="none" stroke="#fff" stroke-width="4"/>
+  <path d="M100 15 L180 46 L180 140 Q180 193 100 225 Q20 193 20 140 L20 46 Z" fill="none" stroke="#C9A227" stroke-width="2"/>
+</svg>
