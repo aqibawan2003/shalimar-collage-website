@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { Quote } from "lucide-react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUserTie } from "@fortawesome/free-solid-svg-icons";
 
 export default function PrincipalMessage() {
   return (
@@ -9,26 +11,19 @@ export default function PrincipalMessage() {
         <div className="flex justify-center">
           <div className="relative">
             <div
-              className="w-72 h-80 rounded-2xl overflow-hidden relative"
-              style={{ border: "4px solid #C9A227", boxShadow: "12px 12px 0 rgba(201,162,39,0.2)" }}
+              className="w-72 h-80 rounded-2xl overflow-hidden relative flex items-center justify-center"
+              style={{ border: "4px solid #C9A227", boxShadow: "12px 12px 0 rgba(201,162,39,0.2)", background: "linear-gradient(135deg, #12305A 0%, #1a4a8a 100%)" }}
             >
-              <div
-                className="w-full h-full flex items-center justify-center"
-                style={{ background: "linear-gradient(135deg, #12305A 0%, #1a4a8a 100%)" }}
-              >
-                {/* Silhouette placeholder */}
-                <div className="text-center text-white">
-                  <div
-                    className="w-24 h-24 rounded-full mx-auto mb-4 flex items-center justify-center text-5xl"
-                    style={{ backgroundColor: "rgba(255,255,255,0.15)" }}
-                  >
-                    👨‍🏫
-                  </div>
-                  <div className="text-xs text-blue-200">Principal&apos;s Photo</div>
+              <div className="text-center text-white">
+                <div
+                  className="w-24 h-24 rounded-full mx-auto mb-4 flex items-center justify-center"
+                  style={{ backgroundColor: "rgba(255,255,255,0.15)" }}
+                >
+                  <FontAwesomeIcon icon={faUserTie} style={{ width: 48, height: 48, color: "#C9A227" }} />
                 </div>
+                <div className="text-xs text-blue-200">Principal&apos;s Photo</div>
               </div>
             </div>
-            {/* Name badge */}
             <div
               className="absolute -bottom-5 -right-5 bg-white rounded-xl px-5 py-3 shadow-xl"
               style={{ border: "2px solid #C9A227" }}
@@ -46,10 +41,7 @@ export default function PrincipalMessage() {
           <span className="text-xs font-semibold uppercase tracking-widest block mb-3" style={{ color: "#C9A227" }}>
             From the Desk of the Principal
           </span>
-          <h2
-            className="text-3xl sm:text-4xl font-bold mb-6"
-            style={{ color: "#12305A", fontFamily: "'Playfair Display', serif" }}
-          >
+          <h2 className="text-3xl sm:text-4xl font-bold mb-6" style={{ color: "#12305A", fontFamily: "'Playfair Display', serif" }}>
             The Principal&apos;s Message
           </h2>
           <Quote size={40} className="mb-4" style={{ color: "#C9A227" }} />
